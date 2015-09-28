@@ -1,12 +1,19 @@
 # Marvel Finder
 React native application to find marvel characters.
 
+# Screenshots
+
+[!live-reload]("screenshots/nv_live_reload.gif")
+[!android]("screenshots/nv_android.gif")
+[!native-module]("screenshots/nv_ios_native_module.gif")
+
 ## React native installation
 
-Install homebrew to install watchman
+- Use [`nvm`](https://github.com/creationix/nvm) to install the latest stable node version
+- Use homebrew to install watchman and flow
 
 ```sh
-$ nvm install stable # Use [nvm](https://github.com/creationix/nvm) to install the latest stable node version
+$ nvm install stable
 $ brew install watchman
 $ brew install flow # optional
 $ npm install -g react-native-cli
