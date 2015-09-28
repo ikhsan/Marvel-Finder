@@ -3,9 +3,9 @@ React native application to find marvel characters.
 
 # Screenshots
 
-![live-reload](screenshots/nv_live_reload.gif)
-![android](screenshots/nv_android.gif)
-![native-module](screenshots/nv_ios_native_module.gif)
+![live-reload](screenshots/rn_live_reload.gif)
+![android](screenshots/rn_android.gif)
+![native-module](screenshots/rn_ios_native_module.gif)
 
 ## React native installation
 
