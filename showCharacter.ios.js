@@ -8,20 +8,24 @@ var {
 var M = NativeModules.Messenger;
 
 function showCharacter(character) {
+  var name = character.name;
+  var message = "You clicked " + character.name + "!!!";
 
-  // AlertIOS.alert(
-  //   character.name,
-  //   "You clicked " + character.name + "!!!",
-  //   [
-  //     { text: 'Awesome', onPress: () => console.log("pressed awesome") }
-  //   ]
-  // );
+  // alertCharacter(name, message);
+  notifyCharacter(name, message);
+}
 
-  M.showTitle(
-    character.name,
-    "You clicked " + character.name + "!!!",
-    M.WARNING
+function alertCharacter(name, message) {
+  AlertIOS.alert(name, message,
+    [
+      { text: 'Awesome', onPress: () => console.log("pressed awesome") }
+    ]
   );
+}
+
+function notifyCharacter(name, message) {
+  // MESSAGE, WARNING, ERROR, SUCCESS
+  M.showTitle(name, message, M.MESSAGE);
 }
 
 module.exports = showCharacter;

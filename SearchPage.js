@@ -160,31 +160,10 @@ var SearchPage = React.createClass({
     }
   },
 
+  //
+  //
+
   render: function() {
-
-    // 1. Text
-    // Search your favorite Marvel character!
-
-    // 2. Image
-    // <Image source={require('image!marvel')} style={styles.image}/>
-
-    // 3. Rest of the UIs
-    // <View style={styles.flowRight}>
-    //   <TextInput
-    //     style={styles.searchInput}
-    //     value={this.state.searchString}
-    //     onChange={this.onSearchChanged}
-    //     placeholder='enter character name' />
-    //   <TouchableHighlight
-    //     style={styles.button}
-    //     onPress={this.onSearchPressed} >
-    //     <Text style={styles.buttonText}>Go!</Text>
-    //   </TouchableHighlight>
-    // </View>
-    //
-    // {spinner}
-    //
-    // <Text style={styles.description}>{this.state.message}</Text>
 
     var spinner = this.spinner();
     return (
