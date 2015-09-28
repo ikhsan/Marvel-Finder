@@ -1,10 +1,15 @@
 # Marvel Finder
 React native application to find marvel characters.
 
-# Screenshots
+## Screenshots
 
+#### Live reload
 ![live-reload](screenshots/rn_live_reload.gif)
+
+#### Running on android
 ![android](screenshots/rn_android.gif)
+
+#### Native iOS module
 ![native-module](screenshots/rn_ios_native_module.gif)
 
 ## React native installation
